@@ -1,0 +1,4 @@
+.frontPage {
+    background: rgb(25,24,46);
+    background: linear-gradient(99deg, rgba(25,24,46,1) 0%, rgba(47,47,140,1) 39%, rgba(8,124,182,1) 100%);
+}
