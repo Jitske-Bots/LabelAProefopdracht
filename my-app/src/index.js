@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Navbar from './Components/Navbar';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Albums from './Components/Albums';
 import Details from './Components/Details';
 import FrontPage from './Components/Frontpage';
 import Search from './Components/Search';

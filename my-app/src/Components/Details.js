@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import { Link, useParams } from 'react-router-dom';
 import { useLocation } from 'react-router-dom'
 import NavBar from './Navbar';
 

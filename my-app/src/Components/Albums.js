@@ -1,8 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Details from './Details.js'
 import './Albums.css';
 
 

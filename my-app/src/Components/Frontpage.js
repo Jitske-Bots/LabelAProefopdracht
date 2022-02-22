@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import Details from './Details.js'
 import NavBar from './Navbar.js';
 import Albums from './Albums.js';
 import './FrontPage.css';

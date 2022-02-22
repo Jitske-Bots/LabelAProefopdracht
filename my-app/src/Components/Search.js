@@ -3,9 +3,6 @@ import React from 'react';
 import { useLocation } from 'react-router-dom'
 import NavBar from './Navbar';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Details from './Details';
-import index from '../index'
-
 
 const API_KEY = "d732731be2f5f0ec4b10e5a3607d7090";
 
