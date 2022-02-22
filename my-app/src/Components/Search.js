@@ -23,7 +23,7 @@ class FetchSearch extends React.Component {
         super(props);
         console.log(this.props.value);
         this.state = {
-            info: []
+            info: [{}]
         }
     }
     componentDidMount() {
@@ -56,12 +56,12 @@ class FetchSearch extends React.Component {
             const title = this.state.info;
             return(
                 <div>
-                    <NavBar />
                     <style>{'body { background: rgb(25,24,46); background: linear-gradient(99deg, rgba(25,24,46,1) 0%, rgba(47,47,140,1) 39%, rgba(8,124,182,1) 100%); }'}</style>
+                    <NavBar />
                     <h1 style={{color: "white", margin: "auto", textAlign: 'center'}}>{this.state.info.name}</h1>
                     <div class="col-12 col-md-6 col-lg-4 col-xl-4 mb-4">
                     <div id="card" class="card" style={{width: "18rem"}}>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Afks9B0MdCOt-r-z-XYym6ShiD4mxvtM4A&usqp=CAU" class="card-img-top" alt="img"></img>
+                        <img src="https://media.istockphoto.com/vectors/retro-neon-city-background-neon-style-80s-vector-illustration-vector-id660723042?k=20&m=660723042&s=170667a&w=0&h=1lFnQLkCobIHWC1z5V_w_LozNapDOsoxA9oCBCjDIl4=" class="card-img-top" alt="img"></img>
                         <div class="card-body">
                             <h5 class="card-title" style={{color: "white"}}>{this.state.info.name}</h5>
                             <Link to={"/"+{title}}  state={{ from: this.state.info.name }} className="btn btn-primary">Details

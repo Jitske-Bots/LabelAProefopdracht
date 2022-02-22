@@ -13,7 +13,6 @@ class Albums extends React.Component {
       super(props);
       this.state = {
         albums: [],
-        title: ''
       };
     }
     
@@ -30,14 +29,14 @@ class Albums extends React.Component {
       })
       .catch(err => { console.log(err); });
     }
-    render() {
+    render() {   
       return (
       <div class="row">
         <h1 style={{textAlign: "center", color: 'white'}}>The Weeknd</h1>
         {this.state.albums.map((album, index) => 
             ( <div class="col-12 col-md-6 col-lg-4 col-xl-4 mb-4" key={album.id ?? index}>
                 <div id="card" class="card" style={{width: "18rem"}}>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Afks9B0MdCOt-r-z-XYym6ShiD4mxvtM4A&usqp=CAU" class="card-img-top" alt="img"></img>
+                <img src={album.image[3]['#text']} class="card-img-top" alt="img"></img>
                   <div class="card-body">
                     <h5 class="card-title" style={{color: "white"}}>{album.name}</h5>
                     <Link to={album.name}  state={{ from: album.name }} className="btn btn-primary">Details

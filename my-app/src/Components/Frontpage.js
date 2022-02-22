@@ -9,8 +9,8 @@ import './FrontPage.css';
 class FrontPage extends React.Component {
     render() {
       return (
-        <div className="frontPage" id="frontpage" style={{paddingTop: "0%"}}>
-          <div className="navbar">
+        <div className="frontPage" id="frontpage">
+          <div className="navbar" id="navbar">
             <NavBar />
           </div>
           <div className="Games">
