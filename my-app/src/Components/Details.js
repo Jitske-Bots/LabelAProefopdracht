@@ -3,8 +3,6 @@ import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useLocation } from 'react-router-dom'
 import NavBar from './Navbar';
-import './Details.css';
-
 
 const API_KEY = "d732731be2f5f0ec4b10e5a3607d7090";
 
