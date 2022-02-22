@@ -19,7 +19,8 @@ class NavBar extends React.Component {
     render() {
         return (
             <nav class="navbar navbar-light justify-content-between" style={{width: "100%" }}>
-            <a class="navbar-brand" style={{color: "white"}}>Welcome</a>
+            <Link to="/" class="navbar-brand" style={{color: "white"}}>Welcome
+            </Link>
             <form onSubmit={this.handleSubmit}>
             <label>
                 <input class="form-control mr-sm-2" type="text" value={this.state.value} onChange={this.handleChange} />
